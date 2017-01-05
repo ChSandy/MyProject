@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_one"
+        android:layout_width="@dimen/item_picture_size_w"
+        android:layout_height="@dimen/item_picture_size_h"
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_one"
+        android:layout_toRightOf="@+id/iv_one"
+        android:layout_alignTop="@+id/iv_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textColor="@color/text_sele"
+        android:textSize="@dimen/text_title_size"
+        android:text="标题" />
+    <TextView
+        android:id="@+id/small_tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_one"
+        android:layout_alignBottom="@+id/iv_one"
+        android:textColor="@color/text_tuiguang"
+        android:background="@drawable/text_shape"
+        android:text="最新"/>
+    <TextView
+        android:id="@+id/tv_one_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/jrrd_comments_count"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/small_tv_one"
+        android:layout_marginRight="10dp"
+        android:text="评论"/>
+
+</RelativeLayout>

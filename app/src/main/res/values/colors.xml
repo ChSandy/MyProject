@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="num_color">#3E444C</color>
+    <color name="text_sele">#000</color>
+    <color name="text_no">#979B9C</color>
+    <color name="text_tuiguang">#F7A86B</color>
+    <color name="text_mine">#fff</color>
+    <color name="logn_background">#F5F5F5</color>
+
+    <color name="logn_blue">#155BA0</color>
+    <color name="pic_pl_ed">#191919</color>
+    <color name="pic_xq_bg">#000</color>
+
+
+</resources>

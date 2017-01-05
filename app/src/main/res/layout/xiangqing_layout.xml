@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <View
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/mun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:padding="@dimen/padding_size"
+                android:src="@drawable/alert_ziti_icon" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+
+    <!-- <include layout="@layout/head_layout" />-->
+
+    <!-- <com.qf.widget.ContentView
+         android:id="@+id/content"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>-->
+
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+
+        <!--    <include layout="@layout/xiang_guan_tuijian" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_size"
+        android:background="@color/logn_background"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_size"
+            android:layout_weight="1"
+            android:background="@drawable/ed_shape"
+            android:hint="说两句吧~"
+            android:padding="@dimen/padding_size" />
+
+        <RadioButton
+            android:id="@+id/pl"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/toolbar_comment"
+            android:button="@null"
+            android:padding="@dimen/padding_size" />
+
+        <RadioButton
+            android:id="@+id/shouchang"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/shouchang_sele"
+            android:button="@null"
+            android:padding="@dimen/padding_size" />
+    </LinearLayout>
+</LinearLayout>

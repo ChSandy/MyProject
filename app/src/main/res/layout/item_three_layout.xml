@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_three"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="@dimen/item_picture_bigsize_h"
+        android:padding="@dimen/padding_size"
+        android:src="@mipmap/ic_launcher"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/video_list_icon"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_tree_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_title_size"
+        android:paddingLeft="@dimen/padding_size"
+        android:textColor="@color/text_sele"
+        android:text="标题"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_three_tuiguang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/text_shape"
+            android:text="最新"
+            android:layout_margin="@dimen/margin_size"
+            android:textColor="@color/text_tuiguang" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_three_pl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/small_tv"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/jrrd_comments_count"
+            android:padding="@dimen/padding_size"
+            android:text="评论" />
+    </LinearLayout>
+</LinearLayout>

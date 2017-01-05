@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="如果你觉得内容不错，可以点击下方的分享按钮，让更多的人看到哦~" />
+
+    <RadioGroup
+        android:id="@+id/rg_video_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_size"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbn_video_weixin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/taolun_detail_share_wx_friend"
+            android:gravity="center_horizontal"
+            android:text="微信" />
+
+        <RadioButton
+            android:id="@+id/rbn_video_penyouq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/taolun_detail_share_wx_circle"
+            android:gravity="center_horizontal"
+            android:text="朋友圈" />
+
+        <RadioButton
+            android:id="@+id/rbn_video_weibo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/taolun_detail_share_weibo"
+            android:gravity="center_horizontal"
+            android:text="微博" />
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/text_no" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zhengwen_pinglun_bg"
+        android:gravity="center"
+        android:text="相关推荐" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video_tuijian_01"
+            android:layout_width="@dimen/item_picture_size_w"
+            android:layout_height="@dimen/item_picture_size_h"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_video_tuijian_01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_video_tuijian_01"
+            android:layout_toRightOf="@+id/iv_video_tuijian_01"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/text_sele"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout02"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video_tuijian_02"
+            android:layout_width="@dimen/item_picture_size_w"
+            android:layout_height="@dimen/item_picture_size_h"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_video_tuijian_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_video_tuijian_02"
+            android:layout_toRightOf="@+id/iv_video_tuijian_02"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/text_sele"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video_tuijian_03"
+            android:layout_width="@dimen/item_picture_size_w"
+            android:layout_height="@dimen/item_picture_size_h"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_video_tuijian_03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_video_tuijian_03"
+            android:layout_toRightOf="@+id/iv_video_tuijian_03"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/text_sele"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video_tuijian_04"
+            android:layout_width="@dimen/item_picture_size_w"
+            android:layout_height="@dimen/item_picture_size_h"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_video_tuijian_04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_video_tuijian_04"
+            android:layout_toRightOf="@+id/iv_video_tuijian_04"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/text_sele"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlayout05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_video_tuijian_05"
+            android:layout_width="@dimen/item_picture_size_w"
+            android:layout_height="@dimen/item_picture_size_h"
+            android:layout_margin="10dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_video_tuijian_05"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/iv_video_tuijian_05"
+            android:layout_toRightOf="@+id/iv_video_tuijian_05"
+            android:maxLines="2"
+            android:text="标题"
+            android:textColor="@color/text_sele"
+            android:textSize="@dimen/text_title_size" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/text_no" />
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/zhengwen_pinglun_bg"
+        android:gravity="center"
+        android:text="热门评论" />
+
+</LinearLayout>
